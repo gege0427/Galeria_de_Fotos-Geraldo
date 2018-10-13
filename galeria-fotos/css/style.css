@@ -1,0 +1,102 @@
+
+body {
+margin: 0;
+padding: 0;
+font-size: 14px;
+font-family: sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+        box-sizing: inherit;
+}
+
+#tela-inicial {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+width: 100%;
+margin: auto;
+background-image:
+-webkit-radial-gradient(top right, rgb(0, 38, 255) 0%,rgba(255,255,0,0) 100%),
+-webkit-radial-gradient(left center, rgb(0, 238, 255) 0%,rgba(255,130,0,0) 100%),
+-webkit-radial-gradient(bottom center, rgb(0, 204, 255) 0%,rgba(255,200,0,0) 100%);
+}
+
+.icone-tela img {
+height: 150px;
+margin: 60px 0;
+text-align: center;
+}
+
+input,
+label {
+font-size: 1.3em;
+}
+
+.entrada-grupo {
+display: flex;
+margin: 10px 0;
+}
+
+
+.adicionar-entrada {
+background-color: #E7E7E7;
+width: 50px;
+height: 50px;
+display: inline-block;
+line-height: 50px;
+text-align: center;
+}
+
+input {
+outline: none;
+}
+
+.controle {
+height: 50px;
+width: 300px;
+background-color: #E7E7E7;
+line-height: 50px;
+display: inline-block;
+border: none;
+}
+
+.btn {
+height: 50px;
+width: 200px;
+border-radius: 50px;
+color: #FFF;
+background: rgba(0, 0, 0, 0.0);
+border: 2px solid #FFF;
+cursor: pointer;
+}
+
+.remember-forgot {
+display: flex;
+width: 350px;
+height: 20px;
+align-items: stretch;
+margin-bottom: 30px;
+}
+
+.check, .forgot {
+width: 50%;
+color: #FFF;
+font-size: 12px;
+height: inherit;
+}
+
+.forgot {
+text-align: right;
+}
+
+.forgot a {
+color: #FFF;
+text-decoration: none;
+line-height: 20px;
+}
